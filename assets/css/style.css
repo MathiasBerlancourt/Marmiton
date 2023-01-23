@@ -1,0 +1,97 @@
+body {
+  font-size: 16px;
+  background-color: #efefef;
+  /* border: solid red 10px; */
+}
+
+.container {
+  width: 1024px;
+  height: auto;
+
+  margin: 0 auto;
+}
+section2 p {
+  text-align: center;
+  color: #393c6c;
+  height: auto;
+  font-family: Roboto;
+  text-align: center;
+}
+section3 p {
+  height: 30px;
+
+  border-radius: 10px;
+  font-family: Roboto;
+  font-size: 25px;
+  color: #efefef;
+  background-color: #9a98b1;
+  font-weight: bold;
+  margin: 15px 350px;
+  text-align: center;
+  padding: 20px;
+}
+.imgRecette {
+  justify-content: space-evenly;
+}
+section4 img {
+  width: 200px;
+  height: 200px;
+}
+section4 {
+  justify-content: space-evenly;
+}
+
+section {
+  background-color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* p {
+  margin-bottom: 20px;
+  margin-top: 22px;
+  font-family: Roboto;
+} */
+h1 {
+  font-size: 50px;
+  font-family: Roboto;
+  font-weight: bold;
+  text-align: center;
+  color: #393c6c;
+}
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f3735f;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #393c6c;
+  line-height: 22px;
+}
+
+/*--------HEADER------*/
+
+header img {
+  width: 200px;
+  margin-top: 21px;
+}
+header {
+  height: 80px;
+  background-color: white;
+  border-bottom: 1px #f3735f solid;
+}
+
+/*-------FOOTER--------*/
+footer {
+  margin-bottom: 0px;
+}
+footer p {
+  text-align: center;
+  font-family: Roboto;
+}
