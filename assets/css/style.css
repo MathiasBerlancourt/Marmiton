@@ -7,8 +7,8 @@ body {
 .container {
   width: 1024px;
   height: auto;
-
   margin: 0 auto;
+  background-color: white;
 }
 section2 p {
   text-align: center;
@@ -30,14 +30,16 @@ section3 p {
   text-align: center;
   padding: 20px;
 }
-.imgRecette {
+/* .imgRecette {
   justify-content: space-evenly;
-}
+} */
 section4 img {
+  margin-top: 20px;
   width: 200px;
   height: 200px;
 }
 section4 {
+  display: flex;
   justify-content: space-evenly;
 }
 
@@ -67,14 +69,29 @@ h2 {
   color: #f3735f;
   margin-top: 70px;
   margin-bottom: 20px;
+  margin-left: 20px;
+  font-family: Roboto;
 }
+
 h3 {
   font-size: 18px;
   font-weight: bold;
   color: #393c6c;
   line-height: 22px;
+  font-family: Roboto;
+  margin-left: 25px;
 }
-
+li {
+  list-style-type: disc;
+  font-family: Roboto;
+  font-size: medium;
+  margin-left: 30px;
+  font-weight: lighter;
+}
+p {
+  margin: 20px;
+  font-family: Roboto;
+}
 /*--------HEADER------*/
 
 header img {
@@ -88,10 +105,14 @@ header {
 }
 
 /*-------FOOTER--------*/
-footer {
-  margin-bottom: 0px;
-}
+
 footer p {
   text-align: center;
+  padding-top: 60px;
   font-family: Roboto;
+  border-bottom: 1px;
+  height: 80px;
+  font-size: smaller;
+  font-weight: lighter;
+  background-color: #efefef;
 }
